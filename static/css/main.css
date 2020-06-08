@@ -209,3 +209,10 @@ h2.monospace {
 .subtitle {
   opacity: 0.5;
 }
+
+@media (min-width: 768px) {
+    .form-check-inline input[type="checkbox"] {
+        float: left;
+        margin-right: 5px;
+    }
+}
